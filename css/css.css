@@ -1,0 +1,156 @@
+body{
+    background-color: #020126;
+}
+header{
+    background-color: #d68408;
+    border-radius: 50px;
+}   
+.logoo{
+    display: flex;
+    max-width: 100%;
+    height: 150px;
+    border: 10px solid #46C949;
+    border-radius: 50px;
+    color: #46C949;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+
+}
+.logo{
+    height: 150px;
+    align-items: flex-start;
+
+}
+.logo img{
+    width: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border: 10px solid #FF064A;
+    border-radius: 30px;
+    display: inline-block;
+}
+.logo p{
+    display: inline-block;
+    color: black;
+    font-size: 40px;
+    margin-top: 1px;
+    bottom: 40px;
+    margin-left: 2px;
+    position: absolute;
+}
+.logo1{
+    align-items: flex-end;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px; 
+    white-space: nowrap;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+}
+nav a:link{
+    color: black;
+    text-decoration: none;
+}
+nav a:visited{
+    color: #020126;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #46C949;
+    text-decoration: none;
+}
+nav a:active{
+    color: #FF064A;
+    text-decoration: none;
+}
+.seções{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.seções1{
+    background-color: #d68408;
+   border: 10px solid black;
+   border-radius: 50px;
+   margin-right: 20px;
+   font-size: 30px;
+}
+.seções a:link{
+    color: black;
+    text-decoration: none;
+}
+.seções a:visited{
+    color:  #020126;
+    text-decoration: none;
+}
+.seções a:hover{
+    background-color: white;
+    color: #46C949;
+    text-decoration: none;
+} 
+.seções a:active{
+    color: #FF064A;
+    text-decoration: none;
+}
+.logodescrição{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px;
+}  
+.logodescrição img{
+    width: 80%;
+    margin-right: 10px;
+    height: 600px;
+    border: 10px solid #FF064A;
+    border-radius: 50px;
+}
+.logodescrição p{
+    font-size: 30px;
+    color: white;
+    background-color: #000;
+    border: 10px solid  #46C949;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+}
+.resumojogos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.resumojogos a{
+    color: white;
+    text-decoration: none;
+}
+.resumojogos a:hover{
+    color: #d68408;
+}
+.resumodosjogos1{
+    background-color: black;
+    font-size: 20px;
+    border: 10px solid  #46C949;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 90%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d68408;
+    margin-bottom: 0;
+}
